@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<title>Portfolio</title>
-	<link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<nav>
-		<a id="home" class="home" href="#home">Home</a>
-		<a id="contact" class="contact" href="contact">Contact</a>
-		<a id="skills" class="skills" href="skills">Skills</a>
-	</nav
-    <setiion class="hero">
-		<h1 align="center">SAQUIB ANJUM</h1>
-		<img alt="hero-image" width="550px" src="https://res.cloudinary.com/dctqno4gi/image/upload/fl_preserve_transparency/v1764582688/itrlqjigvqbauipaxzkn.jpg">
-	</section>
-	<setiion class="hero">
-		<h1 align="center">Skills</h1>
-		<ul>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>Java Script</li>
-			<li>DSA</li>
-			<li>ReactJS</li>
-			
-		</ul>
-		
-	</section>
 
-	
-	
-		
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Navigation -->
+    <nav role="navigation">
+        <a id="home" href="#home">Home</a>
+        <a id="contact" href="#contact">Contact</a>
+        <a id="skills" href="#skills">Skills</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1 role="heading" align="center">SAQUIB ANJUM</h1>
+
+        <img 
+            role="img"
+            src="https://res.cloudinary.com/dctqno4gi/image/upload/fl_preserve_transparency/v1764582688/itrlqjigvqbauipaxzkn.jpg"
+            alt="Hero Image"
+            width="550"
+        >
+
+        <p>
+            Hello my name is Saquib Anjum, I am passinate about full stack developmetn
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="hero" id="skills">
+        <h1 role="heading" align="center">Skills</h1>
+
+        <ul role="list">
+            <li role="listitem">HTML</li>
+            <li role="listitem">CSS</li>
+            <li role="listitem">JavaScript</li>
+            <li role="listitem">DSA</li>
+            <li role="listitem">ReactJS</li>
+        </ul>
+    </section>
+
+    <script src="./script.js"></script>
 
 </body>
 
