@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+nav{
+width90%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+border:1px solid black;
+padding:10px;
+	border-radius:10px
+}
+nav >a{
+	text-decoration:none;
+	font-family:cursive;
+	color:black;
+	font-width:5px;
+	
+}
+.section{
+	width:90%;
+	
+}
+	
